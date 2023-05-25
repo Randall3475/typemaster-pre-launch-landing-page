@@ -31,11 +31,10 @@ export const StyledHero = styled.section`
 `;
 export const HeroLeft = styled.article`
   max-width: 445px;
+  margin-bottom: 108px;
   @media only screen and (max-width: 1110px) {
     max-width: 339px;
-  }
-  @media only screen and (min-width: 769px) {
-    margin-bottom: 108px;
+    margin-bottom: 0;
   }
   @media only screen and (max-width: 768px) {
     max-width: 100%;
