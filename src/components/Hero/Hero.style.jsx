@@ -31,7 +31,7 @@ export const StyledHero = styled.section`
 `;
 export const HeroLeft = styled.article`
   max-width: 445px;
-  margin-bottom: 78px;
+  margin-bottom: 58px;
   @media only screen and (max-width: 1110px) {
     max-width: 339px;
     margin-bottom: 0;
