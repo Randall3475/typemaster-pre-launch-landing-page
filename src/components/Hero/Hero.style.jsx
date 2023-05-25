@@ -34,6 +34,9 @@ export const HeroLeft = styled.article`
   @media only screen and (max-width: 1110px) {
     max-width: 339px;
   }
+  @media only screen and (min-width: 769px) {
+    margin-bottom: 108px;
+  }
   @media only screen and (max-width: 768px) {
     max-width: 100%;
     padding-right: 24px;
