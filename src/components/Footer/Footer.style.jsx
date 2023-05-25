@@ -6,6 +6,7 @@ export const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
   padding-bottom: 39px;
+  column-gap: 6px;
   @media only screen and (max-width: 1110px) {
     padding-bottom: 43px;
   }
