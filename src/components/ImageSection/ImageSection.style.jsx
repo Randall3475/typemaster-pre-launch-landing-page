@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Paragraph, Picture } from '../../globalStyle';
+import SquarePattern from '../../assets/images/shared/pattern-square.svg';
 export const StyledSection = styled.section`
   max-width: 1110px;
   margin-inline: auto;
@@ -8,7 +9,7 @@ export const StyledSection = styled.section`
   justify-content: space-between;
   margin-bottom: 168px;
   &:before {
-    content: url('./images/shared/pattern-square.svg');
+    content: url('${SquarePattern}');
     position: absolute;
     left: -127.5px;
     top: 950px;
